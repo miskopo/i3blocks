@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ $(klist -s) && echo "kbr: ✓" || echo "kbr: 🞩"

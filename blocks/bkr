@@ -1,0 +1,4 @@
+#!/bin/bash
+
+UNFINISHED_JOBS=$(bkr job-list --mine --format list --unfinished | wc -l)
+echo "$UNFINISHED_JOBS"
